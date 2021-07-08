@@ -1,0 +1,14 @@
+.title{
+    background: var(--negro);
+    align-self: flex-start;
+    color: var(--blanco);
+    font: var(--headline5);
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-end:4px ;
+    padding-inline-start:4px ;
+    box-shadow: -4px 4px 0 var(--blanco);  /*para craer sombra de acuerdo a las cordenadas*/
+    text-decoration: none;
+    text-align: center;
+    
+}

@@ -1,0 +1,60 @@
+@import "./button.css";
+@import"./header.css";
+@import"./button-icon.css";
+@import"./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./testimonio.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+:root{
+
+    /*variable para tipografia*/
+    --fontBase:'Poppins', sans-serif; 
+    --headline1: bold 95px / 153.71px var(--fontBase);
+    --headline2: bold 59px / 95px     var(--fontBase);
+    --headline3: bold 48px / 77px     var(--fontBase);
+    --headline4: bold 34px / 55px     var(--fontBase);
+    --headline5: bold 24px / 38px     var(--fontBase);
+    --headline6: normal 24px / 38px     var(--fontBase);
+
+    --Body1:          16px / 25px     var(--fontBase);
+    --Body2:          14px / 22px     var(--fontBase);
+
+    --Button:    bold 14px / 22px     var(--fontBase);
+
+    --Caption:        12px / 19px     var(--fontBase);
+
+    --fontBase2: 'Oxygen', sans-serif;
+    --prueba1:  bold 34px / 55px    var(var(--fontBase2))
+
+
+    /* Colores para sistema*/
+    --purple:#310A90;
+    --aqua:#42E2B8;
+    --blanco:white;
+    --negro:black;
+    
+
+    
+    
+   --gradient: position: relative;
+   
+
+    /* gradient backgroup es para crear el estilo de fondo o color para la pagina */
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #FAD7A1 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #E96D71 0%, #ffc5c7 100%);
+
+}
+body {
+    background: var(--gradient);
+    min-block-size:100vh ;
+    font: var(--Button);
+    color: var(--negro);
+    
+
+}
+   
+

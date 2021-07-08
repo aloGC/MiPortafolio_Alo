@@ -1,0 +1,13 @@
+.button-icon{
+    padding:10px; /*tamaño de los botones */
+    border-radius: 4px;
+    border:2px solid var(--blanco); /*color de contorno de los iconos de los botones*/
+    background: var(--negro); /*Fondo de color de los botones*/
+    text-decoration:none; /*eliminar la decoracion de los botones*/
+    display: inline-block;
+}
+
+.button-icon img{
+    vertical-align: middle;
+
+}
